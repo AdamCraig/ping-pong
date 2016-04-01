@@ -3,23 +3,30 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Eater|Frijole' rel='stylesheet' type='text/css'>
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Who Wants To Play Ping Pong?!</title>
+    <title>Ping-Pong!</title>
   </head>
   <body>
     <div class="container">
       <h1>Let's Ping Some Pongs!</h1>
-      <p>Please enter a number, and we'll apply the rules of Ping Pong! That is, we'll give you all the numbers from 1 to your number, and apply these rules:</p>
+      <img src="img/dance.gif" alt="Let's dance!">
+
+      <div id="hideWhenSubmitted">
+
+      <p>Enter a number, and we'll apply the rules of Ping Pong! That is, we'll give you all the numbers from 1 to your number, and apply these rules:</p>
 
         <p>------------------</p>
-        <p>Numbers divisible by 3 are replaced with "ping"</p>
-        <p>Numbers divisible by 5 are replaced with "pong"</p>
-        <p>Numbers divisible by 15 are replaced with "pingpong"</p>
+        <p>Numbers divisible by 3 are replaced with "Ping"</p>
+        <p>Numbers divisible by 5 are replaced with "Pong"</p>
+        <p>Numbers divisible by 15 are replaced with "Ping-Pong!"</p>
         <p>------------------</p>
 
 
       <p>Got that? Time to play!</p>
+
+    </div>
 
       <form>
         <div class="form-group">
@@ -27,7 +34,9 @@
           <input id="userNumber" type="text">
         </div>
 
-        <button type="submit" class="btn">Pongify Me</button>
+        <div id="submit-button">
+          <button type="submit" class="btn"><p>Let's Get Shwifty</p></button>
+        </div>
       </form>
 
       <div id="result">

@@ -9,9 +9,9 @@ $(document).ready(function() {
     var pongResults = [];
 
     if ( !workingNumber ) {
-      alert("Come on, you have to enter an ACTUAL number.");
+      alert("You have to enter an ACTUAL number!");
     } else if ( workingNumber < 0 ) {
-      alert("Seriously? It's gotta be a POSITIVE number.")
+      alert("It's gotta be a POSITIVE number.")
     } else {
 
     for (index = 1; index <= workingNumber; index++) {
@@ -34,6 +34,8 @@ $(document).ready(function() {
 
   $("form").submit(function(event) {
     event.preventDefault();
+
+    $("#hideWhenSubmitted").slideUp();
 
     $("#result").empty();
 

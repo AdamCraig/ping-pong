@@ -1,7 +1,31 @@
+
 body {
   text-align: center;
+  font-family: 'Eater', cursive;
+  background-color: black;
+  color: #67C868;
+}
+
+p {
+  font-size: 2em;
+}
+
+button {
+  width: 40em;
+  height: 5em;
+  font-size: 5em;
+}
+
+#userNumber {
+  font-size: 2em;
+  height: 4em;
+}
+
+#submit-button p {
+  font-size: 3em;
+  color: black;
 }
 
 #result {
-  font-size: 4em;
+  font-size: 3em;
 }
