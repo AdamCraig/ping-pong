@@ -4,9 +4,13 @@ $(document).ready(function() {
 
   var pongify = function (number) {
 
-    var workingNumber = parseInt(number).split("");
+    var workingNumber = number.split("");
 
     var pongResults = [];
+
+    
+
+    return pongResults;
 
   }
 
@@ -15,7 +19,7 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    var numberToPongify = $("userNumber").val();
+    var numberToPongify = $("#userNumber").val();
     var final = pongify(numberToPongify);
 
     $("#result").text(final);
