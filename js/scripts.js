@@ -25,7 +25,7 @@ $(document).ready(function() {
         pongResults.push(index);
       }
     }
-      pongResults = pongResults.join(" * ");
+      pongResults = pongResults.join(" ... ");
       return pongResults;
     }
   }
