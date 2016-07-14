@@ -1,3 +1,5 @@
+![Home Page](screenshot.png)
+
 # _Ping Pong_
 
 #### _A webpage centered around the interactive game of "ping pong"._
@@ -10,7 +12,7 @@ _A webpage where the user inputs a number and is returned a set of numbers betwe
 
 ## Setup/Installation Requirements
 
-* _Viewing the page is easily accomplished by opening the index.html file in any internet browser. _
+* _Viewing the page is easily accomplished by heading over to its GitHub Pages link at http://adamcraig.github.io/ping-pong _
 
 ## Known Bugs
 
